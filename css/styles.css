@@ -1,0 +1,192 @@
+
+body
+{
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: rgb(89, 89, 89);
+}
+
+
+
+/* container */
+.container-fluid
+{
+    padding: 7% 12%;
+}
+#title .container-fluid
+{
+    padding: 3% 12% 7% 12%;
+}
+
+
+
+/* Headings */
+.carousel-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.cta-heading
+{
+    font-size: 3rem;
+}
+
+.main-heading
+{
+    font-size: 3.3rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.feature-heading
+{
+    font-size: 2rem; 
+}
+
+
+/* Section */
+.colored-section
+{
+    color: white; 
+    background-color: #f79256
+}
+.white-section
+{
+ background-color: white;
+}
+
+
+/* Navbar */
+.navbar-brand
+{
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 2.2rem;
+}
+.navbar
+{
+    padding: 0 0 4rem 0 ;
+}
+.nav-item
+{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+
+
+
+/* Title-Image */
+.download-button
+{
+    margin-left: 1rem;
+}
+.title-image
+{
+    width: 20rem;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 10%;
+}
+
+
+
+/* Featurs section */
+#features
+{
+position: relative;
+}
+.feature-box
+{
+    padding: 3%;
+}
+.icon
+{
+    color: #f76e56;
+}
+.icon:hover
+{
+    color: #f79256;
+}
+
+
+
+
+/* Testimonilas */
+#testimonials,#press
+{
+    background-color:#f76e56 ;
+}
+.testimonail-Image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem 0 6rem 0;
+}
+
+
+
+
+
+/* Press */
+#press
+{
+    padding-bottom: 4rem;
+}
+.press-Image
+{
+    width: 12%;
+    margin: 2rem;
+    
+}
+
+
+
+
+/* Pricing */
+.pricing-item
+{
+    padding: 0.75rem;
+}
+
+
+
+
+/* media query */
+@media (max-width:991.5px) {
+    .main-heading
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        width: 20rem;
+        transform: rotate(0);
+        position: static;
+        padding-top: 2rem;
+    }  
+}
+
+
+
+/* cta */
+#cta
+{
+    font-family: 'Montserrat';
+}
+
+
+
+/* footer */
+#footer
+{
+    font-family: 'Montserrat-Light';
+}
+.footer-icon
+{
+    margin: 1rem;
+}
